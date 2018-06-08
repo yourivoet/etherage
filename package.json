@@ -1,0 +1,29 @@
+{
+  "name": "etherage",
+  "version": "1.0.0",
+  "description": "Code coverage tool for Solidity using VM interruption",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Solidity",
+    "coverage",
+    "Ethereum"
+  ],
+  "author": "Youri Voet",
+  "license": "ISC",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "lodash": "^4.17.10",
+    "mz": "^2.7.0",
+    "safe-eval": "^0.3.0",
+    "shelljs": "^0.8.2",
+    "truffle-compile": "^3.0.11",
+    "truffle-config": "^1.0.4",
+    "truffle-debug-utils": "^1.0.5",
+    "truffle-debugger": "^4.0.0",
+    "truffle-solidity-utils": "^1.1.1",
+    "web3": "^0.20.2"
+  }
+}
